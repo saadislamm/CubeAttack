@@ -1,0 +1,24 @@
+[a b]=xlsread('7')
+
+for i=1:2280
+test(str2num(b{(i)}),7,a(i))
+end
+
+
+
+system('lei.exe');
+dos('lei.exe');
+b=dos('lei.exe');
+[a, b]=dos('lei.exe')
+computer('lei.exe')
+
+
+
+matlabpool open local 8
+matlabpool close
+
+
+
+profile on
+profreport('test')
+profile clear
