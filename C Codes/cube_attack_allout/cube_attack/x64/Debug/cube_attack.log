@@ -1,0 +1,25 @@
+﻿Build started 25-Nov-12 3:03:19 PM.
+     1>Project "C:\Users\Saad\Desktop\cube_attack_allout\cube_attack\cube_attack.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\cube_attack.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt "LBlock Source Code.c"
+         LBlock Source Code.c
+     1>LBlock Source Code.c(723): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>LBlock Source Code.c(737): warning C4244: '=' : conversion from 'time_t' to 'double', possible loss of data
+     1>LBlock Source Code.c(739): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\saad\desktop\cube_attack_allout\cube_attack\lblock source code.c(326): warning C4716: 'LBlockEncrypt' : must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Saad\Desktop\cube_attack_allout\x64\Debug\cube_attack.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\cube_attack.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Saad\Desktop\cube_attack_allout\x64\Debug\cube_attack.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Saad\Desktop\cube_attack_allout\x64\Debug\cube_attack.lib" /MACHINE:X64 "x64\Debug\LBlock Source Code.obj"
+         cube_attack.vcxproj -> C:\Users\Saad\Desktop\cube_attack_allout\x64\Debug\cube_attack.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Saad\Desktop\cube_attack_allout\x64\Debug\cube_attack.exe;#1" /manifest x64\Debug\cube_attack.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\cube_attack.unsuccessfulbuild".
+         Touching "x64\Debug\cube_attack.lastbuildstate".
+     1>Done Building Project "C:\Users\Saad\Desktop\cube_attack_allout\cube_attack\cube_attack.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99
