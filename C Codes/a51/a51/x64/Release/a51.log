@@ -1,0 +1,28 @@
+﻿Build started 16-Nov-12 1:54:22 PM.
+     1>Project "D:\Saad Home\Semester 4 - Thesis\Thesis\Main\C codes\a51\a51\a51.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\a51.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt ..\Source1.c
+         Source1.c
+     1>..\Source1.c(250): warning C4101: 'i' : unreferenced local variable
+     1>..\Source1.c(543): warning C4554: '^' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\Source1.c(608): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>..\Source1.c(621): warning C4244: '=' : conversion from 'time_t' to 'double', possible loss of data
+     1>..\Source1.c(623): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Saad Home\Semester 4 - Thesis\Thesis\Main\C codes\a51\x64\Release\a51.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\a51.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Saad Home\Semester 4 - Thesis\Thesis\Main\C codes\a51\x64\Release\a51.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Saad Home\Semester 4 - Thesis\Thesis\Main\C codes\a51\x64\Release\a51.lib" /MACHINE:X64 x64\Release\Source1.obj
+         Generating code
+         Finished generating code
+         a51.vcxproj -> D:\Saad Home\Semester 4 - Thesis\Thesis\Main\C codes\a51\x64\Release\a51.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Saad Home\Semester 4 - Thesis\Thesis\Main\C codes\a51\x64\Release\a51.exe;#1" /manifest x64\Release\a51.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\a51.unsuccessfulbuild".
+         Touching "x64\Release\a51.lastbuildstate".
+     1>Done Building Project "D:\Saad Home\Semester 4 - Thesis\Thesis\Main\C codes\a51\a51\a51.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.05

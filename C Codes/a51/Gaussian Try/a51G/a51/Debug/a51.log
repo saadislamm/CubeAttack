@@ -1,0 +1,24 @@
+﻿Build started 02-Mar-12 4:30:23 PM.
+     1>Project "C:\Users\Saad\Desktop\a51\a51\a51.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\a51.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Source1.c
+         Source1.c
+     1>c:\users\saad\desktop\a51\source1.c(218): warning C4013: 'exit' undefined; assuming extern returning int
+     1>c:\users\saad\desktop\a51\source1.c(225): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Saad\Desktop\a51\Debug\a51.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\a51.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Saad\Desktop\a51\Debug\a51.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Saad\Desktop\a51\Debug\a51.lib" /MACHINE:X86 Debug\Source1.obj
+         LINK : C:\Users\Saad\Desktop\a51\Debug\a51.exe not found or not built by the last incremental link; performing full link
+         a51.vcxproj -> C:\Users\Saad\Desktop\a51\Debug\a51.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Saad\Desktop\a51\Debug\a51.exe;#1" /manifest Debug\a51.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\a51.unsuccessfulbuild".
+         Touching "Debug\a51.lastbuildstate".
+     1>Done Building Project "C:\Users\Saad\Desktop\a51\a51\a51.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.62

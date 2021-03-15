@@ -1,0 +1,17 @@
+﻿Build started 7/5/2012 1:16:03 PM.
+     1>Project "C:\Users\Saad\Desktop\a51\a51\a51.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\a51.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         a51.vcxproj -> C:\Users\Saad\Desktop\a51\x64\Release\a51.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\a51.unsuccessfulbuild".
+         Touching "x64\Release\a51.lastbuildstate".
+     1>Done Building Project "C:\Users\Saad\Desktop\a51\a51\a51.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14
