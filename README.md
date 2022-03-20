@@ -1,4 +1,4 @@
-# CubeAttack
+# Cube Attack on LBLOCK, Trivium and A5/1 ciphers
 
 Please read my thesis "Cube Attack" and publications for details.
 
